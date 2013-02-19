@@ -1,4 +1,3 @@
-
 # object-to-array
 
   Return an array from an array-like object.
@@ -20,7 +19,7 @@
 
 ## API
 
-   toArray(arguments) // Returns an array from the arguments-object passed.
+   toArray(arguments) // Returns an array from the object passed.
 
 ## License
 
