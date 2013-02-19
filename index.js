@@ -1,16 +1,15 @@
 
 /**
- * Arguments-object to array.
+ * Array-like object to array.
  */
 
 var objectToArray = function (args) {
   if (typeof args !== 'object') {
-    throw new Error('Invalid arguments-object passed.');
+    throw new Error('objectToArray only takes `array-like` objects');
   }
-  return Array.prototype.slice.call(args);
+  return [].slice.call(args);
 };
 
 // Expose `argsToArray`
 
 module.exports = objectToArray;
-
