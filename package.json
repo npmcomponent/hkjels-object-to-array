@@ -1,0 +1,12 @@
+{
+  "name": "hkjels-object-to-array",
+  "description": "Return an array from an array-like object.",
+  "version": "0.0.1",
+  "keywords": [
+    "array",
+    "object",
+    "array-like"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
